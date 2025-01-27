@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Behavior Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Customer Behavior Analytics Dashboard</h1>
+        </header>
+        <section id="dashboard">
+            <div class="card" id="purchasing-patterns">
+                <h2>Purchasing Patterns</h2>
+                <canvas id="purchasingChart"></canvas>
+            </div>
+            <div class="card" id="customer-preferences">
+                <h2>Customer Preferences</h2>
+                <canvas id="preferencesChart"></canvas>
+            </div>
+            <div class="card" id="engagement-levels">
+                <h2>Engagement Levels</h2>
+                <canvas id="engagementChart"></canvas>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
